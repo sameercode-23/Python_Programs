@@ -1,0 +1,14 @@
+
+arr = [10, 20, 30, 40, 50]
+
+print("First element:", arr[0])
+
+arr.append(60)
+print("After appending 60:", arr)
+
+arr.remove(30)
+print("After removing 30:", arr)
+
+print("Elements in array:")
+for item in arr:
+    print(item)
